@@ -8,9 +8,6 @@ Secure authentication using JWT and bcrypt for password hashing.
 ✅ Protected Routes
 Restrict access to authenticated users only (e.g., dashboard, verify page).
 
-✅ Waste Submission & Verification
-Allow users to submit and verify waste entries to earn rewards (Seiso Coins? 🌱).
-
 ✅ Responsive Frontend
 Built using React, Tailwind CSS, and Vite for a blazing-fast dev experience.
 
@@ -26,17 +23,29 @@ Blacklist tokens on logout to prevent reuse.
 📁 Project Structure
 
 seiso-mern-base/
+
 ├── client/           # React + Vite frontend
+
 │   └── src/
+
 │       ├── components/
+
 │       ├── context/
+
 │       ├── pages/
+
 │       └── assets/
+
 └── server/           # Express + MongoDB backend
+
     ├── config/
+
     ├── middleware/
+
     ├── models/
+
     ├── routes/
+
     └── utils/
 
 ⚙️ Getting Started
